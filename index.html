@@ -752,7 +752,7 @@
   <div class="form-card">
     <div class="fields">
       <div class="field">
-        <label>이름 / 닉네임</label>
+        <label>이름 / 소속</label>
         <input type="text" id="name" placeholder="홍길동">
       </div>
       <div class="field">
@@ -845,7 +845,7 @@
       alert('아직 선택하지 않은 상품이 있어요:\n' + missing.join('\n'));
       return;
     }
-    if (!name) { alert('이름/닉네임을 입력해주세요.'); return; }
+    if (!name) { alert('이름/소속을 입력해주세요.'); return; }
     if (!phone) { alert('연락처를 입력해주세요.'); return; }
 
     const p1sub = buildSub('p1_color', 'p1_size');
